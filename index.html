@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="app.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/password.png" type="image/x-icon">
+    <title>Random Password generators</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <p>Password Generators</p>
+        <div class="password-box">
+            <input type="text"  disabled>
+            <i class="fa-regular fa-copy copy-icon"></i>
+        </div>
+        <div class="range-box">
+            <input type="range" min="6" max="16" value="8">
+            <span class="slider-number">8</span>
+        </div>
+        <button class="generate-button">Generate Password</button>
+    </div>
+
+    <!-- Javascript -->
+    <script src="/app.js"></script>
+</body>
+
+
+
+</html>
